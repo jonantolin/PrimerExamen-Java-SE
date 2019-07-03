@@ -199,7 +199,8 @@ public class CatalogoRevistas {
 			System.out.println("            CATALOGO DE REVISTAS ");
 			System.out.println("-----------------------------------------------------");
 			System.out.printf("%20s %12s %12s %12s","Titulo |", "ISBN|", "Núm. Páginas|", "Formato");
-			
+			System.out.println("\n--------------------------------------------------------------------------------------");
+			System.out.println("");
 			for(Revista revista : listaRevistas) {
 				
 				System.out.println(revista);
